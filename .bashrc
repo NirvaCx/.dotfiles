@@ -185,12 +185,3 @@ you're such a smart cookie~ ❤️"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
-
-# Rust-specific environment variables, conforming to XDG
-export CARGO_HOME="$XDG_DATA_HOME/cargo"
-export RUSTUP_HOME="$XDG_DATA_HOME/rustup"
-
-# Add Cargo's bin directory to your PATH
-export PATH="$CARGO_HOME/bin:$PATH"
-# PS1='\n\t ${current}$?\e[0m - \[\e[01;34m\]\w\[\e[0m\]\n\[\e[01;95m\]\u\[\e[00;37m\]@\[\e[1;37m\]\h\[\e[0m\] \$ '
-. "/home/nirva/.local/share/cargo/env"
