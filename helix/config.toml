@@ -1,0 +1,33 @@
+theme = "catppuccin_mocha"
+
+[editor]
+trim-trailing-whitespace = true
+color-modes = true
+bufferline = "always"
+auto-format = false
+insert-final-newline = false
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+[editor.indent-guides]
+render = true
+character = "│"
+skip-levels = 0
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal.space]
+i = ":toggle lsp.display-inlay-hints"
+m = ":format"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+pageup = "no_op"
+pagedown = "no_op"
+home = "no_op"
+end = "no_op"
