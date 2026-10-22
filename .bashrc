@@ -20,7 +20,7 @@ __prompt_command() {
   local RCol='\[\e[0m\]'
 
   local Red='\[\e[38;5;198m\]'
-  local Gre='\[\e[38;5;189\]'
+  local Gre='\[\e[38;5;189m\]'
   local BYel='\[\e[38;5;245m\]'
   local BBlu='\[\e[1;34m\]'
   local Pur='\[\e[0;35m\]'
