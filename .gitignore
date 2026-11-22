@@ -1,0 +1,16 @@
+# .gitignore
+# Ignore All Files By Default
+*
+
+# Whitelist
+!.bashrc
+!helix/
+!kitty/
+!helix/*
+!kitty/*
+!.gitconfig
+!README.md
+
+.*.swp
+.*.swo
+__pycache__/
