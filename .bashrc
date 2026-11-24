@@ -1,5 +1,5 @@
 # the check is bash's default value
-PS1='\[\e[30;47m\]\w\n\[\e[97;46;1m\]\u\[\e[0;97;46m\]@\[\e[46m\]\H\[\e[0m\] \[\e[36m\]\$\[\e[0m\] '
+PS1='[\[\e[2m\]\w\[\e[0m\]]\n\[\e[1m\][\u\[\e[0;93m\]@\H\[\e[0;1m\]]\[\e[0m\] \[\e[1m\]\$\[\e[0m\] '
 
 # command colouring
 alias diff='diff --color=auto'
